@@ -9,7 +9,7 @@ $aux = 0;
 while ($x < $entrada) { 
     
     $aux = $x + $y;
-    $x += $y;
+    $x = $y;
     $y = $aux;
 
     if($x == $entrada){
